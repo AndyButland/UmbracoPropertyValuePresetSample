@@ -1,0 +1,14 @@
+{
+  "id": "Project.Extensions",
+  "name": "Project Extensions",
+  "version": "0.0.0",
+  "allowTelemetry": true,
+  "extensions": [
+    {
+      "name": "Project Extensions Entry Point",
+      "alias": "Project.Extensions.EntryPoint",
+      "type": "backofficeEntryPoint",
+      "js": "/App_Plugins/ProjectExtensions/project-extensions.js"
+    }
+  ]
+}
